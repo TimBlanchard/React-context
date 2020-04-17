@@ -5,7 +5,7 @@ export default function AuthAction() {
 
     const {isAuth, setAuth} = useContext(AuthContext);
     return (
-        <button onClick={() => setAuth({isAuth: true})}>
+        <button onClick={() => {setAuth({isAuth: true})}}>
             S'authentifier
         </button>
 
